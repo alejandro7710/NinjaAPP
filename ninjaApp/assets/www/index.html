@@ -14,10 +14,19 @@
 
 <body>
 
-	<div id="pagina" data-role="page">
+	<div id="inicio" data-role="page">
 
-		<div data-role="header">
-			<h1>Ninja web corp</h1>
+		<div data-role="header" data-theme="a">
+			<div data-role="navbar">
+					   
+					   <ul>
+					     <li><a href="#inicio" >Inicio</a></li>
+					     <li><a href="#noticias" data-transition="slidefade" >Noticias</a></li>
+					     <li><a href="#cursos" data-transition="slidefade" >Cursos</a></li>
+					   </ul>
+					
+					
+					</div>
 		</div>
 		<!-- /header -->
 
@@ -28,19 +37,103 @@
 		</div>
 		<!-- /content -->
 
-		<div data-role="footer">
+		 <div data-role="footer" data-position="fixed" data-id="footerfijo">
 			<h4>
-				<div data-role="controlgroup" data-type="horizontal">
-					<a href="#anylink" data-role="button">Inicio</a> 
-					<a href="#anylink" data-role="button">Noticias</a> 
-					<a href="#anylink" data-role="button">Cursos</a>
-				</div>
+<!-- 				<div data-role="controlgroup" data-type="horizontal"> -->
+<!-- 					<a href="#inicio" data-role="button">Inicio</a>  -->
+<!-- 					<a href="#noticias" data-role="button">Noticias</a>  -->
+<!-- 					<a href="#cursos" data-role="button">Cursos</a> -->
+<!-- 				</div> -->
+
+					<div data-role="navbar">
+					   
+					   <ul>
+					     <li><a href="#inicio">Inicio</a></li>
+					     <li><a href="#noticias">Noticias</a></li>
+					     <li><a href="#cursos">Cursos</a></li>
+					   </ul>
+					
+					
+					</div>
 			</h4>
 		</div>
 		<!-- /footer -->
 
 	</div>
 	<!-- /page -->
+
+<div data-role="page" id="noticias">
+  <div data-role="header">
+    <h1>Bienvenidos a la pagina de noticas</h1>
+    
+    <div data-role="navbar">
+					   
+					   <ul>
+					     <li><a href="#inicio" >Inicio</a></li>
+					     <li><a href="#noticias" data-transition="slidefade" >Noticias</a></li>
+					     <li><a href="#cursos" data-transition="slidefade" >Cursos</a></li>
+					   </ul>
+					
+					
+					</div>
+  </div>
+
+  <div data-role="content">
+    <p>contenido de la pagina noticas</p>
+  </div>
+
+   <div data-role="footer" data-position="fixed" data-id="footerfijo">
+			<h4>
+			<div data-role="navbar">
+					   
+					   <ul>
+					     <li><a href="#inicio" data-icon="delete" >Inicio</a></li>
+					     <li><a href="#noticias">Noticias</a></li>
+					     <li><a href="#cursos">Cursos</a></li>
+					   </ul>
+					
+					
+					</div>
+			</h4>
+		</div>
+		<!-- /footer -->
+
+</div>
+
+<div data-role="page" id="cursos">
+  <div data-role="header">
+    <h1>Bienvenidos a la pagina de cursos</h1>
+    <div data-role="navbar">
+					   
+					   <ul>
+					     <li><a href="#inicio" >Inicio</a></li>
+					     <li><a href="#noticias" data-transition="slidefade" >Noticias</a></li>
+					     <li><a href="#cursos" data-transition="slidefade" >Cursos</a></li>
+					   </ul>
+					
+					
+					</div>
+  </div>
+
+  <div data-role="content">
+    <p>contenido de la pagina de cursos</p>
+  </div>
+
+ <div data-role="footer" data-position="fixed" data-id="footerfijo">
+			<h4>
+			<div data-role="navbar">
+					   
+					   <ul>
+					     <li><a href="#inicio" data-icon="delete" >Inicio</a></li>
+					     <li><a href="#noticias">Noticias</a></li>
+					     <li><a href="#cursos">Cursos</a></li>
+					   </ul>
+					
+					
+					</div>
+			</h4>
+		</div>
+		<!-- /footer -->
 
 </body>
 </html>
