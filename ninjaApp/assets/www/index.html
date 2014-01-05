@@ -34,40 +34,107 @@
 		<div data-role="content">
 			<p>Contenido a la pagina de inicio</p>
 			
-			<div data-role="collapsible">
-			<h1>Contenido 1</h1>
-			<p>Lorem dolor en sí es amet consectetuer para publicar un
-				comentario. Realmente necesito para centrarse en el impacto de los
-				consumidores. Realmente echo de menos. Es fácil, usted se sentirá al
-				hogar y los grandes dioses de parto sobre las montañas, al instante.
-				Hasta que los gatos, es simplemente nada, la tecnología que a sus
-				hijos el valor de lo que, prefijo que significa la mitad. No hay
-				problema para la masa. Por desgracia, los pies de los justos,
-				incluso clientes, ni económico, la producción de carne de vacuno, el
-				diseño. De hecho, el justo, una amplia gama con el fin de que, desde
-				la financiación, la magia de la vida, y los ingresos. Aquí está el
-				precio de un pie fútbol suave que se dijo al gato. Una semana
-				entera. Proteína Mañana. Morbi siempre así. Equipo de Blackjack en
-				la región. Eneas como un león en todo el mundo, los préstamos,
-				condiciones de vida, el Japón y la, por ejemplo. Hit the i delete</p>
-			</div>
-			<div data-role="collapsible">
-			<h1>Contenido 2</h1>
-			<p>Lorem dolor en sí es amet consectetuer para publicar un
-				comentario. Realmente necesito para centrarse en el impacto de los
-				consumidores. Realmente echo de menos. Es fácil, usted se sentirá al
-				hogar y los grandes dioses de parto sobre las montañas, al instante.
-				Hasta que los gatos, es simplemente nada, la tecnología que a sus
-				hijos el valor de lo que, prefijo que significa la mitad. No hay
-				problema para la masa. Por desgracia, los pies de los justos,
-				incluso clientes, ni económico, la producción de carne de vacuno, el
-				diseño. De hecho, el justo, una amplia gama con el fin de que, desde
-				la financiación, la magia de la vida, y los ingresos. Aquí está el
-				precio de un pie fútbol suave que se dijo al gato. Una semana
-				entera. Proteína Mañana. Morbi siempre así. Equipo de Blackjack en
-				la región. Eneas como un león en todo el mundo, los préstamos,
-				condiciones de vida, el Japón y la, por ejemplo. Hit the i delete</p>
-			</div>
+			<form action="" method="">
+				<label for="name">Nombre:</label>
+				<input type="text" name="name" id="name">
+				
+				<label for="email">email:</label>
+				<input type="email" name="email" id="email">
+				
+				<label>Descripcion</label>
+				<textarea rows="2" cols="2"></textarea>
+				
+				<select id="pais" name="pais">
+					<option value="1">Colombia</option>
+					<option value="2">Venezuela</option>
+					<option value="3">El Salvador</option>
+					<option value="">Guatemala</option>				
+				</select>
+				
+				<label for="sexo">Sexo:</label>
+				<select id="sexo" name="sexo" data-role="slider">
+					<option value="m">M</option>
+					<option value="f">F</option>
+				</select>
+				<input type="range" min="0" max="10" name="calificacion">
+			</form>
+			
+			<ul data-role="listview" data-inset="true">
+				<li> mi lista colores
+					<ul>
+					   <li>azul</li>
+					   <li>verde</li>
+					   <li>amarillo</li>
+					
+					</ul>
+				
+				</li>
+				<li>mi lista frutas
+					<ul>
+					   <li>manzana</li>
+					   <li>pera</li>
+					   <li>fresa</li>
+					</ul>				
+				</li>
+				
+				<li><a href="#">mi lista tres</a></li>
+				<li>mi lista cuatro</li>
+				<li>mi lista cinco</li>
+				<li>mi lista seis</li>
+			</ul>
+			
+			<ul data-role="listview" data-inset="true" data-filter="true" 
+			data-filter-placeHolder="Buscar">
+				<li data-role="list-divider">Lenaguajes de programacion</li>
+				<li><a href="#">C</a></li>
+				<li><a href="#">Java</a></li>
+				<li><a href="#">PHP</a></li>
+				
+				<li data-role="list-divider">Lenguajes de hipertexto</li>
+				<li><a href="#">HTML</a></li>
+				<li><a href="#">CSS</a></li>
+				<li><a href="#">JavaScript</a></li>
+			</ul>
+			
+			
+				<div data-role="collapsible" data-collapsed="false">
+					<h1>Contenido 1</h1>
+					<p>Lorem dolor en sí es amet consectetuer para publicar un
+						comentario. Realmente necesito para centrarse en el impacto de los
+						consumidores. Realmente echo de menos. Es fácil, usted se sentirá
+						al hogar y los grandes dioses de parto sobre las montañas, al
+						instante. Hasta que los gatos, es simplemente nada, la tecnología
+						que a sus hijos el valor de lo que, prefijo que significa la
+						mitad. No hay problema para la masa. Por desgracia, los pies de
+						los justos, incluso clientes, ni económico, la producción de carne
+						de vacuno, el diseño. De hecho, el justo, una amplia gama con el
+						fin de que, desde la financiación, la magia de la vida, y los
+						ingresos. Aquí está el precio de un pie fútbol suave que se dijo
+						al gato. Una semana entera. Proteína Mañana. Morbi siempre así.
+						Equipo de Blackjack en la región. Eneas como un león en todo el
+						mundo, los préstamos, condiciones de vida, el Japón y la, por
+						ejemplo. Hit the i delete</p>
+				</div>
+				<div data-role="collapsible">
+					<h1>Contenido 2</h1>
+					<p>Lorem dolor en sí es amet consectetuer para publicar un
+						comentario. Realmente necesito para centrarse en el impacto de los
+						consumidores. Realmente echo de menos. Es fácil, usted se sentirá
+						al hogar y los grandes dioses de parto sobre las montañas, al
+						instante. Hasta que los gatos, es simplemente nada, la tecnología
+						que a sus hijos el valor de lo que, prefijo que significa la
+						mitad. No hay problema para la masa. Por desgracia, los pies de
+						los justos, incluso clientes, ni económico, la producción de carne
+						de vacuno, el diseño. De hecho, el justo, una amplia gama con el
+						fin de que, desde la financiación, la magia de la vida, y los
+						ingresos. Aquí está el precio de un pie fútbol suave que se dijo
+						al gato. Una semana entera. Proteína Mañana. Morbi siempre así.
+						Equipo de Blackjack en la región. Eneas como un león en todo el
+						mundo, los préstamos, condiciones de vida, el Japón y la, por
+						ejemplo. Hit the i delete</p>
+				</div>
+
+		
 
 		</div>
 		<!-- /content -->
